@@ -1,0 +1,18 @@
+
+/* #card-element {
+  display: block;
+  margin: 10px 0;
+} */
+
+ .show-filter{
+  display: none;
+}
+@media(max-width:767px){
+  .responsive-filter-card{
+      display: none;
+      transition: none;
+  }
+  .show-filter{
+      display: block;
+  }
+}
